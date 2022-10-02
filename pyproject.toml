@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "vomadrid-db"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "vomadrid_db"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+alembic = "^1.8.1"
+SQLAlchemy = "^1.4.41"
+psycopg2 = "^2.9.3"
+uuid = "^1.30"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
